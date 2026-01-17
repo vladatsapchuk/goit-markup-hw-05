@@ -501,3 +501,21 @@ margin: 0;
   transform-origin: center;
 }
 
+.subscribe-icon {
+  fill: #FFF;
+  background-color: transparent;
+}
+
+
+.subscribe-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.subscribe-form {
+  display: flex; 
+  gap 24px;
+}
