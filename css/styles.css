@@ -766,3 +766,31 @@ margin: 0;
 icon-check {
   fill: #FFFFFF;
 }
+
+.checkbox-span {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+
+.modal-submit-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5; 
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.checkbox-input:checked + .checkbox-label > .checkbox-span {
+  background-color: var(--ocean); 
+  border: none;
+  fill: var(--cloud);
+}
