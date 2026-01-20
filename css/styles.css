@@ -731,3 +731,8 @@ margin: 0;
 .comment-input:focus {
   border-color: #4D5AE5; ;
 }
+
+.checkbox-container {
+  margin-bottom: 24px; 
+}
+
