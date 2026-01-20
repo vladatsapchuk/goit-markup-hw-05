@@ -477,6 +477,11 @@ margin: 0;
   height: 40px;
 }
 
+
+.footer-subscribe-wrapper {
+  margin-left: 80px;
+}
+
 .footer-soc-link {
   width: 100%;
   height: 100%;
@@ -510,6 +515,7 @@ margin: 0;
 
 .subscribe-text {
   margin-bottom: 16px;
+  display: block;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -761,10 +767,11 @@ margin: 0;
 
 .checkbox-input:checked + .checkbox-label > .checkbox-span {
   background-color: #404bbf; 
-  border-color: #404bbf;   
+  border-color: #404bbf;  
+  fill: #F4F4FD 
 }
 
-icon-check {
+.icon-check {
   fill: #FFFFFF;
 }
 
@@ -795,10 +802,4 @@ icon-check {
 .modal-submit-btn:hover,
 .modal-submit-btn:focus {
   background-color:#404BBF;
-}
-
-.checkbox-input.is-checked .checkbox-span {
-  fill:#F4F4FD;
-  background-color: #404bbf;
-  border: none; 
 }
