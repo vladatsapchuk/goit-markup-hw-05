@@ -765,8 +765,8 @@ margin: 0;
 
 .checkbox-input:checked + .checkbox-label > .checkbox-span {
   background-color: #404bbf; 
-  border-color: #404bbf;  
   fill: #F4F4FD 
+  border: none;
 }
 
 .icon-check {
