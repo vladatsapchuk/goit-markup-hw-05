@@ -757,3 +757,12 @@ margin: 0;
   justify-content: center;
   fill: transparent;
 }
+
+.checkbox-input:checked + .checkbox-label > .checkbox-span {
+  background-color: #404bbf; 
+  border-color: #404bbf;   
+}
+
+icon-check {
+  fill: #FFFFFF;
+}
